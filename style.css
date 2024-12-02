@@ -1,0 +1,221 @@
+*,*::before,*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    max-width: 1280px;
+    display: grid;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.logo img{
+    width: 50%;
+}
+
+.try-it a{
+    text-decoration: none;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+    padding: 7px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cta{
+    display: grid;
+    gap: 50px;
+}
+
+.cta-content{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.cta-button a{ 
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(232, 97, 229);
+    padding:10px 30px ;
+    border-radius: 20px;
+}
+
+.cta-image img{
+    object-fit: cover;
+    width: 100%;
+}
+.cta-image{
+    padding: 20px;
+}
+
+.achievements{
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+}
+.icon img{
+    width: 40px;
+}
+.number{
+    font-size: 70px;
+    text-align: center;
+}
+.achievement{
+    text-align: center;
+}
+
+.content-image img{
+    width: 100%;
+}
+.content{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+}
+.content :last-child{
+    margin-bottom: 100px;
+}
+.content-text{
+    place-items: center;
+    text-align: center;
+}
+.cta-content-2{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.cta-tile{
+    text-align: center;
+}
+.background{
+    background-image: url(bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.newsletter{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+
+}
+.newsletter span{
+    text-decoration: none;
+    color: aliceblue;
+    
+    display: grid;
+    
+    grid-template-columns:1fr 1fr;
+    
+}
+.newsletter span a{
+    grid-column: 2/3;
+    background-color: rgb(232, 97, 229);
+    justify-self: end;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    
+
+}
+.footer{
+    margin-top: 50px;
+    
+    color: aliceblue;
+    gap: 20px;
+    display: grid;
+    padding: 20px;
+
+    
+    
+}
+.footer img{
+    width: 50%;
+}
+.footer-section-1 p{
+    margin: 0;
+    gap: 10px;
+    display: grid;
+}
+.footer-section-1 {
+    
+    gap: 10px;
+    display: grid;
+}
+.phone{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+.footer-section-3{
+    display: flex;
+}
+.phone-number p{
+    margin: 0%;
+}
+.email-address p{
+    margin: 0%;
+}
+
+.footer :nth-last-child(3){
+    margin-bottom: 20px;
+}
+
+@media (min-width: 700px) {
+    .logo img{
+        width: 80%;
+    }
+
+    .achievements{
+        display: flex;
+        justify-content: space-around;
+    }
+    .cta-image{
+        width: 70%;
+    }
+    .content-section{
+        display: flex;
+        
+        
+        align-items: center;
+        
+    }
+    .content-section.content-section:nth-child(2n){
+        
+        flex-direction: row-reverse;
+    }
+    body{
+        display: grid;
+        gap: 50px;
+    }
+    .background{
+        display: flex;
+        flex-direction: row-reverse
+    };
+
+}
+
+@media (min-width: 601px) {
+
+}
+
+@media (min-width: 701px) {
+
+
+}
+
+@media (min-width: 901px) {
+
+}
